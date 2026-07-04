@@ -23,7 +23,6 @@ This project demonstrates how to configure a Windows 11 virtual machine, set up 
    - Open `Windows Defender Firewall`
    - Turn off firewall for Domain, Private, and Public networks
 
-📷 **Fig.1: Windows Firewall Disabled**
 
 ---
 
@@ -39,7 +38,7 @@ This project demonstrates how to configure a Windows 11 virtual machine, set up 
 - Enable: *Password never expires*
 4. Click **Create**
 
-📷 **Fig.2: Creating Administrator User**
+📷 **Fig.1: Creating Administrator User**
 
 ---
 
