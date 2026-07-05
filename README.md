@@ -37,9 +37,10 @@ This project demonstrates how to configure a Windows 11 virtual machine, set up 
 - Password: (your choice)
 - Enable: *Password never expires*
 4. Click **Create**
+  
+![Figure 1](images/fig1.png)
 
 📷 **Fig.1: Creating Administrator User**
-
 ---
 
 ### b) Add User to Administrators Group
@@ -53,7 +54,8 @@ Administrators
 
 5. Click **OK → Apply**
 
-📷 **Fig.3: Adding User to Administrators Group**
+![Figure 2](images/fig2.png)
+📷 **Fig.2: Adding User to Administrators Group**
 
 ---
 
@@ -64,8 +66,8 @@ Administrators
 
 Administrators
 
-
-📷 **Fig.4: Confirm Administrator Group Membership**
+![Figure 3](images/fig4.png)
+📷 **Fig.3: Confirm Administrator Group Membership**
 
 ---
 
@@ -78,7 +80,8 @@ Administrators group
 
 3. Set Guest password to empty (blank)
 
-📷 **Fig.5: Guest Account Configuration**
+![Figure 4](images/fig5.png)
+📷 **Fig.4: Guest Account Configuration**
 
 ---
 
@@ -95,8 +98,6 @@ Create a new scan using **Advanced Network Scan**
 - Enable administrative shares during scan: ✅
 - Start Server service during scan: ✅
 
-📷 **Fig.6: Basic Scan Settings**
-
 ---
 
 ### 🌐 Discovery Settings
@@ -105,7 +106,6 @@ Create a new scan using **Advanced Network Scan**
 - Use fast network discovery: ✅
 - TCP Port scanning: ✅
 
-📷 **Fig.7: Discovery Settings**
 
 ---
 
@@ -123,7 +123,9 @@ Add Windows credentials:
 - Username: `administrator`
 - Password: `<your password>`
 
-📷 **Fig.8: Credential Configuration**
+![Figure 5](images/fig6.png)
+
+📷 **Fig.5: Credential Configuration**
 
 ---
 
@@ -133,7 +135,9 @@ Add DISA STIG policy:
 
 - Microsoft Windows 11 STIG v2r6 (or latest available)
 
-📷 **Fig.9: STIG Compliance Policy Added**
+![Figure 6](images/fig7.png)
+
+📷 **Fig.6: STIG Compliance Policy Added**
 
 ---
 
@@ -147,7 +151,9 @@ Add DISA STIG policy:
 - Microsoft Bulletins
 - User Management
 
-📷 **Fig.10: Plugin Configuration**
+![Figure 7](images/fig8.png)
+
+📷 **Fig.7: Plugin Configuration**
 
 ---
 
@@ -159,7 +165,8 @@ Add DISA STIG policy:
 4. Provide target IP address of VM
 5. Launch scan
 
-📷 **Fig.11: Scan Running**
+![Figure 8](images/fig9.png)
+📷 **Fig.8: Configuring scan**
 
 ---
 
@@ -172,7 +179,8 @@ After scan completion, review:
 - Failed STIG Controls
 - Recommended Remediations
 
-📷 **Fig.12: Scan Results Overview**
+![Figure 9](images/fig10.png)
+📷 **Fig.9: Scan Results Overview**
 
 ---
 
@@ -184,8 +192,6 @@ To observe changes in compliance results:
 
 1. Disable **Administrator account**
 2. Disable **Guest account**
-
-📷 **Fig.13: Disabled Accounts in Windows**
 
 ---
 
@@ -204,9 +210,7 @@ Observe differences in:
 - Compliance failures
 - Authentication-related issues
 - Privilege and access findings
-
-📷 **Fig.14: Before vs After Scan Comparison**
-
+- 
 ---
 
 ## 🧠 Key Learnings
